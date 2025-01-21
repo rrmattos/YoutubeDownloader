@@ -2,6 +2,10 @@
 
 This is a Python Exercise project. It can download YouTube audios or videos with the available resolutions in the source.
 
+If you prefer not to build the project yourself, you can download a pre-compiled .exe file (for Windows) here: [google drive](https://drive.google.com/file/d/1B7DtESr5JM7fhm0sgY8lxS5pHCzhfry4/view?).
+
+Se você não quiser criar o executável baixando o projeto, pode somente baixar uma versão pré-compilada .exe (para Windows) aqui: [google drive](https://drive.google.com/file/d/1B7DtESr5JM7fhm0sgY8lxS5pHCzhfry4/view?).
+
 ## Instructions
 
 ### --- English ---
