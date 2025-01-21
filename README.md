@@ -117,3 +117,8 @@ Você pode passar as URLs dos vídeos que deseja baixar de 3 maneiras:
 - Criando um arquivo de texto (ex: `.txt`) com todas as URLs que deseja, separando-as com quebra de linha (Enter).
 
 #### Na pergunta inicial, se digitar sem aspas: `exit`, `sair` ou `0`, o programa se encerra.
+
+
+## Video Demo
+
+https://youtu.be/vF2QDYs-6tI
