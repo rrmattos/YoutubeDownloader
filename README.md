@@ -8,7 +8,7 @@ This is a Python Exercise project. It can download YouTube audios or videos with
 
 #### How to Generate the Program Build:
 
-First you need to unzip de "ffmpeg.zip" into the "assets" folder. After that:
+First you need to unzip the "ffmpeg.zip" into the "assets" folder. After that:
 
 1. On Windows, open PowerShell in the project folder and run `build/run_build.bat`.
    
