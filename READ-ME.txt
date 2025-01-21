@@ -1,42 +1,95 @@
-- Instructions -
---- English ---
-How to Generate the Program Build:
+# YoutubeDownloader
 
-    First you need to unzip the "ffmpeg.zip" into the "assets" folder. After that:
+This is a Python Exercise project. It can download YouTube audios or videos with the available resolutions in the source.
 
-    On Windows, open PowerShell in the project folder and run build/run_build.bat.
+## Instructions
 
-    On Linux or Mac, open a terminal in the project folder and run build/run_build.sh.
+### --- English ---
 
-How to Provide URLs:
+#### Prerequisites:
+
+1. Make sure you have **Python 3.x** installed on your machine. You can download Python from the official site: https://www.python.org/downloads/.
+   
+2. After cloning the repository, create a virtual environment to install dependencies:
+   
+   On Windows:
+   python -m venv venv
+
+   On Linux or Mac:
+   python3 -m venv venv
+
+3. Activate the virtual environment:
+   
+   On Windows (PowerShell):
+   .\venv\Scripts\Activate
+
+   On Linux or Mac:
+   source venv/bin/activate
+
+4. Install the required dependencies:
+   pip install -r requirements.txt
+
+#### How to Generate the Program Build:
+
+First, unzip the `ffmpeg.zip` into the `assets` folder. After that:
+
+1. On Windows, open PowerShell in the project folder and run `build/run_build.bat`.
+   
+2. On Linux or Mac, open a terminal in the project folder and run `build/run_build.sh`.
+
+#### How to Provide URLs:
 
 You can provide the video URLs in three different ways:
 
-    By entering a single URL;
-    By entering multiple URLs, separated by commas (,);
-    By creating a text file (e.g., .txt) containing all the URLs, with each one on a separate line.
+- By entering a single URL;
+- By entering multiple URLs, separated by commas (`,`);
+- By creating a text file (e.g., `.txt`) containing all the URLs, with each one on a separate line.
 
-Exiting the Program:
+#### Exiting the Program:
 
-In the initial prompt, typing (without quotes) exit, sair, or 0 will close the program.
+In the initial prompt, typing (without quotes) `exit`, `sair`, or `0` will close the program.
 
+---
 
+### --- Português ---
 
---- Português ---
-Para gerar a build do programa:
-	
-    Primeiro você precisa extrair a pasta do arquivo "ffmpeg.zip" na pasta "assets". Depois:
+#### Pré-requisitos:
 
-    No Windows, abra o PowerShell na pasta do projeto e execute build/run_build.bat.
+1. Certifique-se de ter o **Python 3.x** instalado na sua máquina. Você pode baixar o Python no site oficial: https://www.python.org/downloads/.
+   
+2. Após clonar o repositório, crie um ambiente virtual para instalar as dependências:
+   
+   No Windows:
+   python -m venv venv
 
-    No Linux ou Mac, abra o terminal na pasta do projeto e execute build/run_build.sh.
+   No Linux ou Mac:
+   python3 -m venv venv
 
-Para informar as URLs:
+3. Ative o ambiente virtual:
+   
+   No Windows (PowerShell):
+   .\venv\Scripts\Activate
+
+   No Linux ou Mac:
+   source venv/bin/activate
+
+4. Instale as dependências necessárias:
+   pip install -r requirements.txt
+
+#### Para gerar a build do programa:
+
+Primeiro, extraia o arquivo `ffmpeg.zip` na pasta `assets`. Depois:
+
+1. No Windows, abra o PowerShell na pasta do projeto e execute `build/run_build.bat`.
+
+2. No Linux ou Mac, abra o terminal na pasta do projeto e execute `build/run_build.sh`.
+
+#### Para informar as URLs:
 
 Você pode passar as URLs dos vídeos que deseja baixar de 3 maneiras:
 
-    Inserindo apenas uma URL;
-    Inserindo mais de uma URL separando-as por vírgula (,);
-    Criando um arquivo de texto (ex: .txt) com todas as URLs que deseja, separando-as com quebra de linha (Enter).
+- Inserindo apenas uma URL;
+- Inserindo mais de uma URL separando-as por vírgula (`,`);
+- Criando um arquivo de texto (ex: `.txt`) com todas as URLs que deseja, separando-as com quebra de linha (Enter).
 
-Na pergunta inicial, se digitar sem aspas: exit, sair ou 0, o programa se encerra.
+#### Na pergunta inicial, se digitar sem aspas: `exit`, `sair` ou `0`, o programa se encerra.
