@@ -33,9 +33,9 @@ This is a Python Exercise project. It can download YouTube audios or videos with
 
 First, unzip the `ffmpeg.zip` into the `assets` folder. After that:
 
-1. On Windows, open PowerShell in the project folder and run `build/run_build.bat`.
+1. On Windows, open PowerShell in the project folder and run `scripts/run_build.bat`.
    
-2. On Linux or Mac, open a terminal in the project folder and run `build/run_build.sh`.
+2. On Linux or Mac, open a terminal in the project folder and run `scripts/run_build.sh`.
 
 #### How to Provide URLs:
 
@@ -80,9 +80,9 @@ In the initial prompt, typing (without quotes) `exit`, `sair`, or `0` will close
 
 Primeiro, extraia o arquivo `ffmpeg.zip` na pasta `assets`. Depois:
 
-1. No Windows, abra o PowerShell na pasta do projeto e execute `build/run_build.bat`.
+1. No Windows, abra o PowerShell na pasta do projeto e execute `scripts/run_build.bat`.
 
-2. No Linux ou Mac, abra o terminal na pasta do projeto e execute `build/run_build.sh`.
+2. No Linux ou Mac, abra o terminal na pasta do projeto e execute `scripts/run_build.sh`.
 
 #### Para informar as URLs:
 
