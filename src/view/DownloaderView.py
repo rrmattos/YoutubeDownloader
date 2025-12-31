@@ -76,7 +76,7 @@ def get_user_choice(total_options):
 
 def display_header():
     print("=" * 50)
-    print("Youtube Downloader - Versão 1.0")
+    print("Youtube Downloader - Versão 1.1")
     print("Criado por: Rafael Réus Mattos | Contato: rafael.r.mattos04@gmail.com")
     print("=" * 50)
     print("\n")

@@ -1,4 +1,5 @@
-from controller.VideoDownloader import download_yt, display_header
+from controller.VideoDownloader import download_yt
+from view.DownloaderView import display_header
 
 def main():
     display_header()
